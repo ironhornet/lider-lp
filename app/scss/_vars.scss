@@ -1,3 +1,7 @@
+@mixin os300 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
 @mixin os400 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -18,6 +22,10 @@
 @mixin pd600{
     font-family: 'Playfair Display', serif;
     font-weight: 600;
+}
+@mixin pd700{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
 }
 @mixin pd900{
     font-family: 'Playfair Display', serif;

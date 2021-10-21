@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Lider</title>
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,63 +17,475 @@
 </head>
 
 <body>
-    <main>
-        <header>
-            <div class="container header_container">
-                <div class="header__contacts">
-                    <ul>
-                        <li>г. Москва, ул. Парковая 34 б</li>
-                        <li>+7(100) 123 45 67</li>
-                        <li>+7(100) 123 45 67</li>
-                    </ul>
-                    <div class="header__logo">
-                        <img src="../app/images/header/logo.png" alt="">
-                    </div>
-                </div>
 
-                <div class="header__nav">
-                    <div class="header__nav-button">
-                        <a href="#">Заказать консультацию</a>
-                    </div>
-                    <div class="header__nav-bar">
-                        <ul>
-                            <li><a href="#">Главная</a></li>
-                            <li><a href="#">Услуги</a></li>
-                            <li><a href="#">Блог</a></li>
-                            <li><a href="#">О нас</a></li>
-                            <li><a href="#">Отзывы</a></li>
-                            <li><a href="#">Контакты</a></li>
-                        </ul>
-                    </div>
+    <!-- HEADER START -->
+
+    <header>
+        <div class="container header_container">
+            <div class="header__contacts">
+                <ul>
+                    <li>г. Москва, ул. Парковая 34 б</li>
+                    <li>+7(100) 123 45 67</li>
+                    <li>+7(100) 123 45 67</li>
+                </ul>
+                <div class="header__logo">
+                    <img src="./images/header/logo.png" alt="">
                 </div>
             </div>
 
+            <div class="header__nav">
+                <div class="header__nav-button hover-button">
+                    <a class="form-link" href="#form">Заказать консультацию</a>
+                </div>
+                <div class="header__nav-bar">
+                    <ul>
+                        <li>
+                            <div class="hover-border"></div>
+                            <a href="#">Главная</a>
+                        </li>
+                        <li>
+                            <div class="hover-border"></div>
+                            <a class="programs-link" href="#programs">Услуги</a>
+                        </li>
+                        <li>
+                            <div class="hover-border"></div>
+                            <a class="events-link" href="#events">Блог</a>
+                        </li>
+                        <li>
 
-            <div class="container header__registration">
+                            <div class="hover-border"></div>
+                            <a class="about-link" href="#about">О нас</a>
+                        </li>
+                        <li>
+                            <div class="hover-border"></div>
+                            <a class="events-link" href="#events">Отзывы</a>
+                        </li>
+                        <li>
+                            <div class="hover-border"></div>
+                            <a class="footer-link" href="#footer">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container header__registration">
             <div class="header__title">
                 <h1>Компания, которой доверяют</h1>
-                <h2>Получите гражданство ЕС
-                    в ускоренный срок при поддержке юристов Rlider.</h2>
+                <h2>Получите гражданство ЕС в ускоренный срок при поддержке юристов Rlider.</h2>
+                <div class="header__title-arrow">
+                    <img src="./images/header/arrow.png" alt="">
+                </div>
             </div>
-            <div class="header__form">
+            <div class="header__form" id="form">
+                <div class="header__form-transparency">
+                </div>
                 <div class="header__form-text">
-                    <div class="rotate__text">
-                        <p>Свяжитесь с нами</p>
-                    </div>
+                    <p>свяжитесь с нами</p>
                 </div>
                 <form action="">
-                    <input type="text" name="name" placeholder="Ваше имя"></input>
-                    <input type="email" name="email" placeholder="Ваш email"></input>
-                    <input type="tel" name="tel" placeholder="Ваш телефон"></input>
-                    <button type="submit">Связаться с нами</button>
+                    <input type="text" name="name" placeholder="Ваше имя">
+                    <input type="email" name="email" placeholder="Ваш email">
+                    <input type="tel" name="tel" placeholder="Ваш телефон">
+                    <button class="hover-button" type="submit">Связаться с нами</button>
                 </form>
             </div>
         </div>
 
-        </header>
-    </main>
-    <section>sdfsdfds</section>
-    <footer>sdfdsfs</footer>
+    </header>
+
+    <!-- HEADER END -->
+
+    <!-- ABOUT START  -->
+
+     <section id="about">
+        <div class="container">
+            <div class="company__about">
+                <div class="company__about-image company__about-item">
+                    <img src="./images/about/company.png" alt="">
+                </div>
+                <div class="company__about-text company__about-item">
+                    <div class="company__about-text_border"></div>
+                    <div class="company__about-text_title">
+                        <h2>Несколько слов
+                            о компании</h2>
+                    </div>
+                    <div class="company__about-text_content">
+                        <p>
+                            Компания Rlider предоставляет помощь в оформлении гражданства ЕС на основании действующего
+                            миграционного законодательства европейских стран. С получением паспорта Евросоюза Вам
+                            становятся доступны все преимущества статуса гражданина ЕС – безвизовые путешествия по миру,
+                            официальное трудоустройство, получение образования в престижных университетах Европы по
+                            уменьшенной стоимости или полностью бесплатно, качественное медицинское обслуживание.
+
+                        </p>
+                    </div>
+
+                    <div class="company__about-text_achievements">
+                        <div class="company__about-text_achievements-number">
+                            <p>
+                                250+
+                            </p>
+                            <span>Сотрудников</span>
+                        </div>
+
+                        <div class="company__about-text_achievements-number">
+                            <p>
+                                12+
+                            </p>
+                            <span>Офисов</span>
+                        </div>
+
+                        <div class="company__about-text_achievements-number">
+                            <p class="last">
+                                250+
+                            </p>
+                            <span>Клиентов</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- ABOUT END  -->
+
+    <!-- BENEFITS START  -->
+
+    <section>
+        <div class="container">
+            <div class="benefits-container">
+                <div class="benefits__title">
+                    <div class="benefits__title-border"></div>
+                    <h2>Преимущества работы с компанией Rlider</h2>
+                </div> 
+
+
+                <div class="benefits">
+                        <div class="benefits__support sub">
+                            <div class="benefits__support-logo">
+                                <img src="./images/benefits/people.png" alt="">
+                            </div>
+
+                            <div class="benefits__support-title title">
+                                <h3>Комплексное <br>
+                                    сопровождение</h3>
+                            </div>
+                            <div class="benefits__support border"></div>
+                            <div class="benefits__support-text text">
+                                <p>
+                                    С момента первой консультации и до получения паспорта гражданина Евросоюза мы
+                                    предоставляем нашим клиентам грамотную юридическую поддержку.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="benefits__plane sub">
+                            <div class="benefits__plane-logo">
+                                <img src="./images/benefits/magnifier.png" alt="">
+                            </div>
+
+                            <div class="benefits__plane-title title">
+                                <h3>Индивидуальный подбор плана иммиграции </h3>
+                            </div>
+                            <div class="benefits__plane border"></div>
+                            <div class="benefits__plane-text text">
+                                <p>
+                                    Специалисты компании подберут для Вас наиболее выгодную государственную программу
+                                    для
+                                    получения второго паспорта ЕС.
+                                </p>
+                            </div>
+                        </div>
+                    <div class="benefits__policy sub">
+                        <div class="benefits__policy-logo">
+                            <img src="./images/benefits/policy.png" alt="">
+                        </div>
+                        <div class="benefits__policy-title title">
+                            <h3>Соблюдение политики конфиденциальности</h3>
+                        </div>
+                        <div class="benefits__policy border"></div>
+                        <div class="benefits__policy-text text">
+                            <p>
+                                Компания строго придерживается принципов неразглашения персональной информации
+                                клиентов, оформляющих гражданство Евросоюза.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- BENEFITS END  -->
+
+    <!-- PROGRAMS START  -->
+
+     <section id="programs">
+        <div class="container">
+            <div class="programs">
+                <div class="programs__container programs__item">
+                    <div class="programs__title">
+                        <div class="border"></div>
+                        <h2>Действующие иммиграционные <br> программы</h2>
+                    </div>
+                    <div class="programs__content-container">
+                        <div class="programs__content">
+                            <p>от 6 месяцев</p>
+                            <h3>Румыния</h3>
+                            <div class="programs__content-card">
+                                <p class="strong-title">от 2850 евро</p>
+                                <div class="border"></div>
+                                <p> 171 стран безвиз</p>
+                            </div>
+
+                        </div>
+                        <div class="programs__content-card_button hover-button">
+                            <a href="">Заказать</a>
+                        </div>
+                    </div>
+
+                    <div class="programs__content-container">
+                        <div class="programs__content">
+                            <p>от 15 месяцев</p>
+                            <h3>Боглария</h3>
+                            <div class="programs__content-card">
+                                <p class="strong-title">от 2850 евро</p>
+                                <div class="border"></div>
+                                <p> 170 стран безвиз</p>
+                            </div>
+
+                        </div>
+                        <div class="programs__content-card_button hover-button">
+                            <a href="">Заказать</a>
+                        </div>
+                    </div>
+
+                    <div class="programs__content-container">
+                        <div class="programs__content">
+                            <p>от 3 месяцев</p>
+                            <h3>Польща</h3>
+                            <div class="programs__content-card">
+                                <p class="strong-title">от 2850 евро</p>
+                                <div class="border"></div>
+                                <p> 174 стран безвиз</p>
+                            </div>
+
+                        </div>
+                        <div class="programs__content-card_button hover-button">
+                            <a href="">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="programs__img programs__item" >
+                    <img src="./images/programs/programsFam.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PROGRAMS END  -->
+
+    <!-- EXPERTS START  -->
+     <section>
+        <div class="container">
+            <div class="experts">
+                <div class="experts__title">
+                    <div class="border"></div>
+                    <h3>Наши эксперты</h3>
+                </div>
+                <div class="experts__items-container">
+                    <div class="experts__items">
+                        <div class="experts__items-photo">
+                            <img src="./images/experts/photo1.png" alt="">
+                        </div>
+                        <p class="experts__items-name">
+                            Мартынов Иван
+                        </p>
+                        <p class="experts__items-ocupation">
+                            Специалист по граждансту Болгарии
+                        </p>
+                        <div class="experts__items-button hover-button">
+                            <a class="form-link" href="#form">Связаться</a>
+                        </div>
+                    </div>
+
+                    <div class="experts__items">
+                        <div class="experts__items-photo">
+                            <img src="./images/experts/photo2.png" alt="">
+                        </div>
+                        <p class="experts__items-name">
+                            Романова Екатерина
+                        </p>
+                        <p class="experts__items-ocupation">
+                            Специалист по граждансву Румынии
+                        </p>
+                        <div class="experts__items-button hover-button">
+                            <a class="form-link" href="#form">Связаться</a>
+                        </div>
+                    </div>
+
+                    <div class="experts__items">
+                        <div class="experts__items-photo">
+                            <img src="./images/experts/photo3.png" alt="">
+                        </div>
+                        <p class="experts__items-name">
+                            Соколов Игорь
+                        </p>
+                        <p class="experts__items-ocupation">
+                            Специалист по граждансву ЕС
+                        </p>
+                        <div class="experts__items-button hover-button">
+                            <a class="form-link" href="#form">Связаться</a>
+                        </div>
+                    </div>
+
+                    <div class="experts__items">
+                        <div class="experts__items-photo">
+                            <img src="./images/experts/photo4.png" alt="">
+                        </div>
+                        <p class="experts__items-name">
+                            Петрова Ольга
+                        </p>
+                        <p class="experts__items-ocupation">
+                            Юрист
+                        </p>
+                        <div class="experts__items-button hover-button">
+                            <a class="form-link" href="#form">Связаться</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERTS END  -->
+
+    <!-- CAPTURE-FORM START -->
+    <section>
+        <div class="capture-form">
+                <div class="container header__registration">
+                    <div class="header__title">
+                        <h1>Компания, которой доверяют</h1>
+                        <h2>Получите гражданство ЕС в ускоренный срок при поддержке юристов Rlider.</h2>
+                        <div class="header__title-arrow">
+                            <img src="./images/header/arrow.png" alt="">
+                        </div>
+                    </div>
+                    <div class="header__form" id="form">
+                        <div class="header__form-transparency">
+                        </div>
+                        <div class="header__form-text">
+                            <p>свяжитесь с нами</p>
+                        </div>
+                        <form action="">
+                            <input type="text" name="name" placeholder="Ваше имя">
+                            <input type="email" name="email" placeholder="Ваш email">
+                            <input type="tel" name="tel" placeholder="Ваш телефон">
+                            <button type="submit" class="hover-button">Связаться с нами</button>
+                        </form>
+                    </div>
+                </div>
+        
+        </div>
+    </section>
+
+    <!-- CAPTURE-FORM END -->
+
+    <!-- EVENTS START  -->
+
+    <section id="events" class="events">
+        <div class="container">
+            <div class="events__divider"></div>
+            <h2 class="events__title">Последние новости и события</h2>
+            <div class="events__cards">
+                <div class="events__cards-item">
+                    <img src="./images/events/event1.png" alt="event image">
+                    <div class="events__cards-item-title">
+                        <span>27 октября 2018</span>
+                        <p>Что даёт румынский паспорт гражданам России</p>
+                    </div>
+                    <p class="events__cards-item-content">
+                        Многих жителей России интересует возможность получения европейского паспорта...
+                    </p>
+                </div>
+                <div class="events__cards-item">
+                    <img src="./images/events/event2.png" alt="event image">
+                    <div class="events__cards-item-title">
+                        <span>27 октября 2018</span>
+                        <p>10 преимуществ гражданства Болгарии</p>
+                    </div>
+                    <p class="events__cards-item-content">
+                        Республика Болгария с 1 января 2007 года является полноправным членом Европейского союза...
+                    </p>
+                </div>
+                <div class="events__cards-item">
+                    <img src="./images/events/event3.png" alt="event image">
+                    <div class="events__cards-item-title">
+                        <span>27 октября 2018</span>
+                        <p>Название последней очень интересной новости</p>
+                    </div>
+                    <p class="events__cards-item-content">
+                        Наша новость такая интересная, обязательно почитайте ее и зайдите на наш блог...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EVENTS END  -->
+
+    <!-- FOOTER START  -->
+   <footer id="footer">
+        <div class="container">
+            <div class="footer__container">
+                <div class="footer__logo">
+                    <img src="./images/header/logo.png" alt="logo">
+                    <p>&#169; 2020. Rlider Политика конфидециальности</p>
+                </div>
+                <div class="footer__contacts">
+                    <div class="footer__contacts-phones footer__contacts-item">
+                        <div class="footer__contacts-item-title">
+                            <img src="./images/footer/phone.png" alt="phone">
+                            <p>Телефоны:</p>
+                        </div>
+                        <a class="footer__contacts-item-content" href="tel:+7(1234)123-456">
+                            +7(1234)123-456
+                        </a>
+                        <a class="footer__contacts-item-content" href="tel:+7(1234)123-456">
+                            +7(1234)123-456
+                        </a>
+                    </div>
+                    <div class="footer__contacts-address footer__contacts-item">
+                        <div class="footer__contacts-item-title">
+                            <img src="./images/footer/adreess.png" alt="address">
+                            <p>Адрес:</p>
+                        </div>
+                        <p class="footer__contacts-item-content">
+                            62000 г.Москва,<br /> ул. Победы, 46, офис 45
+                        </p>
+                    </div>
+                    <div class="footer__contacts-email footer__contacts-item">
+                        <div class="footer__contacts-item-title">
+                            <img src="./images/footer/mail.png" alt="email">
+                            <p>Электронная почта:</p>
+                        </div>
+                        <p class="footer__contacts-email-content">
+                            rlider@gmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END  -->
+
 
 
 
@@ -81,6 +493,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
     <script src="js/main.min.js"></script>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
